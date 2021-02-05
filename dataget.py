@@ -16,7 +16,7 @@ This method will be changed once the main program is implemented
 
 def find_summoner():
     if(not os.path.isfile('users.txt')):
-      f = open('users'.txt)
+      f = open('users.txt')
       f.close()
   
     use_name = input('Would you like to check a saved user? (y/n)\n (Any other input will quit)')
